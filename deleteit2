@@ -26,7 +26,8 @@ with open("urls.txt","r") as f:
             print("Blank")
             continue
 
-       
+        else:
+            print("KLYA HUA bhai")
         print(line,end="")
 # iterate over the list
 

@@ -1,5 +1,12 @@
-[INFO  - 2018-06-20T18:02:12.170Z] GhostDriver - Main - running on port 17031
-[INFO  - 2018-06-20T18:02:15.485Z] Session [10835d60-74b4-11e8-8595-b1935dad7212] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2018-06-20T18:02:15.485Z] Session [10835d60-74b4-11e8-8595-b1935dad7212] - page.customHeaders:  - {}
-[INFO  - 2018-06-20T18:02:15.485Z] Session [10835d60-74b4-11e8-8595-b1935dad7212] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2018-06-20T18:02:15.485Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 10835d60-74b4-11e8-8595-b1935dad7212
+[INFO  - 2018-08-13T17:15:27.808Z] GhostDriver - Main - running on port 29951
+[INFO  - 2018-08-13T17:15:29.860Z] Session [7a899de0-9f1c-11e8-be71-11a2ed21d1d4] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-08-13T17:15:29.860Z] Session [7a899de0-9f1c-11e8-be71-11a2ed21d1d4] - page.customHeaders:  - {}
+[INFO  - 2018-08-13T17:15:29.860Z] Session [7a899de0-9f1c-11e8-be71-11a2ed21d1d4] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-8.1-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-08-13T17:15:29.860Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7a899de0-9f1c-11e8-be71-11a2ed21d1d4
+[ERROR - 2018-08-13T17:15:36.478Z] Session [7a899de0-9f1c-11e8-be71-11a2ed21d1d4] - page.onError - msg: VIDEOJS: ERROR: (CODE:4 MEDIA_ERR_SRC_NOT_SUPPORTED) No compatible source was found for this video. [object Object]
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-08-13T17:15:36.478Z] Session [7a899de0-9f1c-11e8-be71-11a2ed21d1d4] - page.onError - stack:
+  _logType (https://www.webreinvent.com/wp-content/plugins/videojs-html5-player/videojs/video.js?ver=1.0.9:16752)
+
+  phantomjs://platform/console++.js:263 in error
