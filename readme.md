@@ -1,4 +1,4 @@
-A website to help Bug Bounty Hunters at the time of Reconnaisance .I takes in a list of website as a parameter and returns a list of images corresponding to the website
+A website to help Bug Bounty Hunters at the time of Reconnaisance .It takes in a list of website as a parameter and returns a list of images corresponding to the website
 
 The main working file is main.py 
 deleteit.py and deleteit2.py are useless files
